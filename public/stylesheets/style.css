@@ -1,0 +1,59 @@
+/* Reset default spacing */
+body, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body style */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;   /* light background */
+  color: #333;
+}
+
+/* Navigation bar */
+nav {
+  background-color: #3a2c41;   /* dark purple-gray */
+  padding: 100px 40px;
+}
+
+/* Nav list */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;  /* align items right */
+}
+
+/* Nav items */
+nav ul li {
+  margin-left: 140px;
+}
+
+/* Nav links */
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #f06292;   /* pink hover */
+}
+
+/* Heading */
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+p {
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 20px;
+  color: #c53d3d;
+}
+
